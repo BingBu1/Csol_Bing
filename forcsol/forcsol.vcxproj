@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6D21AF2F-9F17-4ADF-995A-85A09C3C457C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>forcsol</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BingbuCsol</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MinSpace</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;FORCSOL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;FORCSOL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;FORCSOL_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\Include\char8_t remediation;$(MSBuildProjectDirectory)\Include\fmt\include;$(MSBuildProjectDirectory)\Include\XorStr;$(MSBuildProjectDirectory)\libs\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <BaseAddress>
+      </BaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)Include\fmt\fmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;FORCSOL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AimBot.h" />
+    <ClInclude Include="AimBotCheat.h" />
+    <ClInclude Include="BasePack.hpp" />
+    <ClInclude Include="BasicCheat.h" />
+    <ClInclude Include="CallBackFun.h" />
+    <ClInclude Include="CheatManagerBase.h" />
+    <ClInclude Include="ClassHook.h" />
+    <ClInclude Include="ClientPrint.h" />
+    <ClInclude Include="cl_clientfuncs.h" />
+    <ClInclude Include="Cmd.h" />
+    <ClInclude Include="CommandExec.h" />
+    <ClInclude Include="Computer.h" />
+    <ClInclude Include="darw.h" />
+    <ClInclude Include="DebugLog.h" />
+    <ClInclude Include="DevDebug.h" />
+    <ClInclude Include="DrawBase.h" />
+    <ClInclude Include="DropRoom.h" />
+    <ClInclude Include="dwFindPattern.hpp" />
+    <ClInclude Include="EnumGameItem.h" />
+    <ClInclude Include="Esp.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="externbase.h" />
+    <ClInclude Include="externFun.h" />
+    <ClInclude Include="FuckChines.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\anorms.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\beamdef.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cdll_dll.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cdll_engine_dll.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\Cdll_int.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cl_dll.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cl_entity.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\const.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\crc.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\custom.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\customentity.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cvardef.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\dlight.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\edict.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\eiface.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\entity_state.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\entity_types.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\event_args.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\event_flags.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\in_buttons.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\keydefs.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\particledef.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pmtrace.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pm_defs.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pm_info.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\progdefs.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\progs.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\r_efx.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\r_studioint.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\shake.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\studio.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\studio_event.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\triangleapi.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\usercmd.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\util_vector.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\weaponinfo.h" />
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\wrect.h" />
+    <ClInclude Include="GameKz.h" />
+    <ClInclude Include="GamePack.h" />
+    <ClInclude Include="GameUi007.h" />
+    <ClInclude Include="GodAxeAuto.h" />
+    <ClInclude Include="GroupPanel.h" />
+    <ClInclude Include="HackAddres.h" />
+    <ClInclude Include="heal.h" />
+    <ClInclude Include="helper.hpp" />
+    <ClInclude Include="hitbox.h" />
+    <ClInclude Include="HookMessage.h" />
+    <ClInclude Include="IHTML.h" />
+    <ClInclude Include="ImguiDraw.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_opengl2.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="ISurface.h" />
+    <ClInclude Include="JoinClass.h" />
+    <ClInclude Include="JoinLocal.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="KeyCode.h" />
+    <ClInclude Include="LockMode.h" />
+    <ClInclude Include="LockModeCheat.h" />
+    <ClInclude Include="MemHelper.hpp" />
+    <ClInclude Include="MemMpHack.h" />
+    <ClInclude Include="MpBase.h" />
+    <ClInclude Include="Mymath.h" />
+    <ClInclude Include="NT_DDK.h" />
+    <ClInclude Include="obfuscation.h" />
+    <ClInclude Include="PackRead.hpp" />
+    <ClInclude Include="PackWrite.hpp" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerStatus.hpp" />
+    <ClInclude Include="P_VGUI.h" />
+    <ClInclude Include="SeverMeesage.h" />
+    <ClInclude Include="SpeedHack.h" />
+    <ClInclude Include="Sunday.hpp" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="tcp.hpp" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="util.hpp" />
+    <ClInclude Include="ValveSDK\mp\cbase.h" />
+    <ClInclude Include="Vgui.h" />
+    <ClInclude Include="VguiLocalize003.h" />
+    <ClInclude Include="VguiMenu.h" />
+    <ClInclude Include="ViewCheat.h" />
+    <ClInclude Include="VoxelBlockEntity.h" />
+    <ClInclude Include="VoxelUpdateCheat.h" />
+    <ClInclude Include="VoxeMenu.h" />
+    <ClInclude Include="Xorst.h" />
+    <ClInclude Include="XorString.h" />
+    <ClInclude Include="XorString2.h" />
+    <ClInclude Include="XorString3.h" />
+    <ClInclude Include="zs_BuyBug.h" />
+    <ClInclude Include="冰布汉化测试.h" />
+    <ClInclude Include="编码转化.h" />
+    <ClInclude Include="荣誉.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AimBot.cpp" />
+    <ClCompile Include="AimBotCheat.cpp" />
+    <ClCompile Include="BasicCheat.cpp" />
+    <ClCompile Include="CallBackFun.cpp" />
+    <ClCompile Include="CheatManagerBase.cpp" />
+    <ClCompile Include="ChildDraw.cpp" />
+    <ClCompile Include="ClassHook.cpp" />
+    <ClCompile Include="Cmd.cpp" />
+    <ClCompile Include="ColorDraw.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandExec.cpp" />
+    <ClCompile Include="Computer.cpp" />
+    <ClCompile Include="DevDebug.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="DropRoom.cpp" />
+    <ClCompile Include="EnumGameItem.cpp" />
+    <ClCompile Include="Esp.cpp" />
+    <ClCompile Include="FloatClass.cpp" />
+    <ClCompile Include="forcsol.cpp" />
+    <ClCompile Include="GameKz.cpp" />
+    <ClCompile Include="GamePack.cpp" />
+    <ClCompile Include="GodAxeAuto.cpp" />
+    <ClCompile Include="GroupPanel.cpp" />
+    <ClCompile Include="HackAddres.cpp" />
+    <ClCompile Include="Heal.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="HookMess.cpp" />
+    <ClCompile Include="ImguiDraw.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="InterFace.cpp" />
+    <ClCompile Include="JoinClass.cpp" />
+    <ClCompile Include="JoinLocal.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Kz.cpp" />
+    <ClCompile Include="LockMode.cpp" />
+    <ClCompile Include="LockModeCheat.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="MemMpHack.cpp" />
+    <ClCompile Include="MpFun.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="P_VGUI.cpp" />
+    <ClCompile Include="SeverMeesage.cpp" />
+    <ClCompile Include="SpeedHack.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="ValveSDK\misc\parsemsg.cpp" />
+    <ClCompile Include="VguiPanle.h" />
+    <ClCompile Include="ViewCheat.cpp" />
+    <ClCompile Include="VoxelBlockEntity.cpp" />
+    <ClCompile Include="VoxelMap.cpp" />
+    <ClCompile Include="VoxelUpdateCheat.cpp" />
+    <ClCompile Include="zs_BuyBug.cpp" />
+    <ClCompile Include="同步的计算.cpp" />
+    <ClCompile Include="编码转化.cpp" />
+    <ClCompile Include="荣誉.cpp" />
+    <ClCompile Include="计算屏幕坐标.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets" Condition="Exists('..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
+  </Target>
+</Project>

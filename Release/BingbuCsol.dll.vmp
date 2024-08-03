@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="BingbuCsol.dll" Options="857032" OutputFileName="BingbuCsol.dll" VMCodeSectionName="">
+        <Messages>
+            <Message Id="0" />
+            <Message Id="1" />
+            <Message Id="2" />
+            <Message Id="3" />
+        </Messages>
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress="_DllMain@12" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CL_CreateMove(float,struct usercmd_s *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="StudioDrawPlayer(int,struct entity_state_s *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="HUD_Redraw(float,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="HUD_AddEntity(int,struct cl_entity_s *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="V_CalcRefdef(struct ref_params_s *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="HUD_PlayerMove(struct playermove_s *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="HookClient(bool)" Options="0" />
+            <Procedure MapAddress="_SWB" Options="0" />
+            <Procedure MapAddress="_SVB" Options="0" />
+            <Procedure MapAddress="HUD_Frame(double)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MySeh(struct _EXCEPTION_POINTERS *)" Options="0" />
+            <Procedure MapAddress="ChildClass::Panit(bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="WinProc(struct HWND__ *,unsigned int,unsigned int,long)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="dwFindPattern(unsigned long,unsigned long,unsigned char *,char *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::GetNowClass(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::BackMain(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::GoChild(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::GetIsBestChar(void)" Options="0" />
+            <Procedure MapAddress="TheText::SetChildValue(int,int)" Options="0" />
+            <Procedure MapAddress="TheText::ChildUpOrDown(bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::SetBestValue(int,int)" Options="0" />
+            <Procedure MapAddress="TheText::SetValue(int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::SetBestChar(int,...)" Options="0" />
+            <Procedure MapAddress="TheText::UpOrDown(bool)" Options="0" />
+            <Procedure MapAddress="TheText::Panit(bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::Add(class TheText *)" Options="0" />
+            <Procedure MapAddress="TheText::Draw(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::Init(int,int,char *,void *,struct cvar_s *,class ChildClass *,bool)" Options="0" />
+            <Procedure MapAddress="TheText::MainInit(int,int,char *,void *,struct cvar_s *,class ChildClass *,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="HUD_DrawTransparentTriangles(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="?C名称打码@@YAXXZ" Options="0" />
+            <Procedure MapAddress="?名称打码@@YAXXZ" Options="0" />
+            <Procedure MapAddress="Cfastrun(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="fastrun(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="?C摇头@@YAXXZ" Options="0" CompilationType="1" />
+            <Procedure MapAddress="?摇头@@YAXXZ" Options="0" CompilationType="1" />
+            <Procedure MapAddress="?C躲猫猫透视@@YAXXZ" Options="0" />
+            <Procedure MapAddress="?躲猫猫透视@@YAXXZ" Options="0" />
+            <Procedure MapAddress="Hello(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="Close(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="Open(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CloseSelf(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="OpenSelf(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CloseLight(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="OpenLight(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CloseBunny(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="OpenBunny(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CloseMcj(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="OpenMcj(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CloseAero(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="OpenAero(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="closeno(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="openno(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="StudioDrawModel(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="DrawPlayerESP(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="DrawTrace(struct cl_entity_s *,struct mecolor24 *,float,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="AutoSpeed(struct usercmd_s *,struct playmove,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="KillAll(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="?Mp都给老子飞@@YAXXZ" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MpSetModle(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CreateFlyHen(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="RemveAllWeapon(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="GiveYouFaceABox(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MyAddToFullPack(struct entity_state_s *,int,struct edict_s *,struct edict_s *,int,int,unsigned char *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetBlock(char *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelNpcA(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckComputer(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="RollSell(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetWarehouse(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="RollBuy(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetAk47L(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetGoldBlock(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelC41(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetGlodTry(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetFogStatc(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetFog(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetVoxelMap(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelBrigth(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelInitBackSet(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelZombieRedX(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetZombieVoxelMap(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelSkyFun(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FriendDam(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetFireDam(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelReset(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="DeadRpnTime(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="VoxelBuy(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="GetColor(char const *,float &amp;,float &amp;,float &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="UnicodeToUnf8(class std::basic_string&lt;wchar_t,struct std::char_traits&lt;wchar_t&gt;,class std::allocator&lt;wchar_t&gt; &gt;)" IncludedInCompilation="0" Options="0" />
+            <Procedure MapAddress="FuckZombie17(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie16(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie15(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie14(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie13(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie12(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie11(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie10(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie9(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie8(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie7(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie6(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie5(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie4(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie3(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie2(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie1(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckZombie(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ZombieCall(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MyJjia(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SleepExx(int)" Options="0" />
+            <Procedure MapAddress="FuckTwo(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckOne(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckThree(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="FuckFour(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::GetNow(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TheText::GetNowIsInChild(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MapMaxLing(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="MpRpn(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="NOWhite(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="TextClassInit(void)" Options="0" />
+            <Procedure MapAddress="Trigger(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="UseCallBackFun(void)" Options="0" />
+            <Procedure MapAddress="ChildClass::MainInit(int,int,char *,void *,struct cvar_s *)" Options="0" />
+            <Procedure MapAddress="ChildClass::LockAllFunc(void)" Options="0" />
+            <Procedure MapAddress="ChildClass::Init(int,int,char *,void *,struct cvar_s *,class ChildClass *)" Options="0" />
+            <Procedure MapAddress="ImGui::RenderText(struct ImVec2,char const *,char const *,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TextEx(char const *,char const *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::StyleColorsLight(struct ImGuiStyle *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImguiDraw::DrawMenu(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginChildEx(char const *,unsigned int,struct ImVec2 const &amp;,bool,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetColumnOffset(int,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiStorage::GetInt(unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::DataTypeApplyOpFromText(char const *,char const *,int,void *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplOpenGL2_CreateFontsTexture(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ScrollbarEx(struct ImRect const &amp;,unsigned int,enum ImGuiAxis,float *,float,float,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderMouseCursor(struct ImDrawList *,struct ImVec2,float,int,unsigned int,unsigned int,unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ClearActiveID(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::OpenPopupEx(unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiTextBuffer::appendfv(char const *,char *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ScrollToBringRectIntoView(struct ImGuiWindow *,struct ImRect const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::GetColorU32(int,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::DataTypeApplyOp(int,int,void *,void const *,void const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiColorMod&gt;::push_back(struct ImGuiColorMod const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::DataTypeFormatString(char *,int,int,void const *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginTooltipEx(int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PopStyleVar(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiWindowStackData&gt;::reserve(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetScrollHereY(float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplWin32_WndProcHandler(struct HWND__ *,unsigned int,unsigned int,long)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Scrollbar(enum ImGuiAxis)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiStorage::ImGuiStoragePair&gt;::insert(struct ImGuiStorage::ImGuiStoragePair const *,struct ImGuiStorage::ImGuiStoragePair const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TreeNode(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetFocusID(unsigned int,struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TreePushOverrideID(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Combo(char const *,int *,bool (*)(void *,int,char const * *),void *,int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindWindowByID(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CreateNewWindowSettings(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiStorage::SetInt(unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Checkbox(char const *,bool *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiIO::AddInputCharacterUTF16(unsigned short)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiTextBuffer::appendf(char const *,...)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushItemWidth(float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TableSettingsCreate(unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavInitWindow(struct ImGuiWindow *,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushFont(struct ImFont *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiContext::ImGuiContext(struct ImFontAtlas *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetItemDefaultFocus(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CloseButton(unsigned int,struct ImVec2 const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindWindowByName(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SaveIniSettingsToMemory(unsigned int *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::LogFinish(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ClosePopupsOverWindow(struct ImGuiWindow *,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateHoveredWindowAndCaptureFlags(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemAdd(struct ImRect const &amp;,unsigned int,struct ImRect const *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiWindow::MenuBarRect(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiIO::ImGuiIO(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::StartMouseMovingWindow(struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderNavHighlight(struct ImRect const &amp;,unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetWindowPos(struct ImGuiWindow *,struct ImVec2 const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushID(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiStyle::ImGuiStyle(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TableGcCompactSettings(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TextColored(struct ImVec4 const &amp;,char const *,...)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TextV(char const *,char *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiPopupData&gt;::push_back(struct ImGuiPopupData const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImguiDraw::InitImgui(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderCheckMark(struct ImDrawList *,struct ImVec2,unsigned int,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::InputTextEx(char const *,char const *,char *,int,struct ImVec2 const &amp;,int,int (*)(struct ImGuiInputTextCallbackData *),void *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateMouseMovingWindowEndFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::InputScalar(char const *,int,void *,void const *,void const *,char const *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CalcItemSize(struct ImVec2,float,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::GetTopMostPopupModal(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindWindowSettings(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImFontGlyph&gt;::reserve(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemHoverable(struct ImRect const &amp;,unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderFrame(struct ImVec2,struct ImVec2,unsigned int,bool,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FocusWindow(struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushID(void const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderFrameBorder(struct ImVec2,struct ImVec2,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TreeNodeBehavior(unsigned int,int,char const *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindBestWindowPosForPopupEx(struct ImVec2 const &amp;,struct ImVec2 const &amp;,int *,struct ImRect const &amp;,struct ImRect const &amp;,enum ImGuiPopupPositionPolicy)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetActiveID(unsigned int,struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TableSettingsFindByID(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CollapsingHeader(char const *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::LoadIniSettingsFromMemory(char const *,unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndGroup(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::TreePop(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::LogRenderedText(struct ImVec2 const *,char const *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiWindow::ImGuiWindow(struct ImGuiContext *,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderTextClipped(struct ImVec2 const &amp;,struct ImVec2 const &amp;,char const *,char const *,struct ImVec2 const *,struct ImVec2 const &amp;,struct ImRect const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiMenuColumns::CalcNextTotalWidth(bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndChild(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ButtonBehavior(struct ImRect const &amp;,unsigned int,bool *,bool *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="DrawEsp(enum ImguiDraw::EspDraw,float *,struct cl_entity_s *,struct cl_entity_s *,float,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CloseCurrentPopup(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetWindowSize(struct ImGuiWindow *,struct ImVec2 const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::IsKeyPressed(int,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::IsItemHovered(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetTooltip(char const *,...)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Render(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::StyleColorsDark(struct ImGuiStyle *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplWin32_NewFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::GetNavInputAmount(int,enum ImGuiInputReadMode)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PopFont(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndColumns(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImFont *&gt;::reserve(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PopClipRect(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ButtonEx(char const *,struct ImVec2 const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::CollapseButton(unsigned int,struct ImVec2 const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemSize(struct ImVec2 const &amp;,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiGroupData&gt;::resize(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Begin(char const *,bool *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplOpenGL2_RenderDrawData(struct ImDrawData *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImVector&lt;struct ImGuiStyleMod&gt;::push_back(struct ImGuiStyleMod const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderArrow(struct ImDrawList *,struct ImVec2,unsigned int,int,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::LogText(char const *,...)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindBestWindowPosForPopup(struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginGroup(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ClearDragDrop(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Initialize(struct ImGuiContext *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiIO::~ImGuiIO(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::End(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NewFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Selectable(char const *,bool,int,struct ImVec2 const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderTextClippedEx(struct ImDrawList *,struct ImVec2 const &amp;,struct ImVec2 const &amp;,char const *,char const *,struct ImVec2 const *,struct ImVec2 const &amp;,struct ImRect const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FocusTopMostWindowUnderOne(struct ImGuiWindow *,struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ClosePopupToLevel(int,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginCombo(char const *,char const *,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginComboPopup(unsigned int,struct ImRect const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Text(char const *,...)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SameLine(float,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImguiDraw::`dynamic initializer for &apos;WeaponBuff&apos;&apos;" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImguiDraw::`dynamic atexit destructor for &apos;WeaponBuff&apos;&apos;" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavCalcPreferredRefPos" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavEndFrame" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavProcessItem" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavRestoreLayer" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavScoreItem" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavUpdate" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavUpdateMoveResult" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavUpdatePageUpPageDown" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavUpdateWindowing" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NavUpdateWindowingOverlay" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderWindowDecorations" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderWindowOuterBorders" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderWindowTitleBarContents" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateMouseInputs" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateMouseWheel" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateWindowManualResize" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplOpenGL2_SetupRenderState" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplWin32_UpdateGamepads" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui_ImplWin32_UpdateMouseCursor" Options="0" CompilationType="1" />
+            <Procedure MapAddress="Key::FastKey(void)" Options="0" />
+            <Procedure MapAddress="ChildClass::FindChildClassByName(char *)" Options="0" />
+            <Procedure MapAddress="ChildClass::Add(class ChildClass *)" Options="0" />
+            <Procedure MapAddress="ChildClass::GetIsBestChar(void)" Options="0" />
+            <Procedure MapAddress="ChildClass::SetBestValue(int,int)" Options="0" />
+            <Procedure MapAddress="ChildClass::SetBestChar(int,...)" Options="0" />
+            <Procedure MapAddress="ChildClass::UnLockAllFunc(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="RGBFog(void)" Options="0" />
+            <Procedure MapAddress="GetModle(void *)" Options="0" />
+            <Procedure MapAddress="TheText::MainInit(int,int,char *,void *,struct cvar_s *,class ChildClass *,bool,int)" Options="0" />
+            <Procedure MapAddress="TheText::Init(int,int,char *,void *,struct cvar_s *,class ChildClass *,bool,int)" Options="0" />
+            <Procedure MapAddress="ChildClass::MainInit(int,int,char *,void *,struct cvar_s *,int)" Options="0" />
+            <Procedure MapAddress="ChildClass::Init(int,int,char *,void *,struct cvar_s *,class ChildClass *,int)" Options="0" />
+            <Procedure MapAddress="GetSequence(struct cl_entity_s *)" Options="0" />
+            <Procedure MapAddress="InitBase(void)" Options="0" CompilationType="1" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager />
+</Document>

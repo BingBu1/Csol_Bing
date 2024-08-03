@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\eng">
+      <UniqueIdentifier>{e70bd05a-8829-4549-bd54-c3a812fc76d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack">
+      <UniqueIdentifier>{74d643aa-0016-4a52-97a6-ea0f8ca76101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\eng\Mp">
+      <UniqueIdentifier>{6683ec49-4e21-4a5d-ad24-8ab65d2a909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\eng\Engine">
+      <UniqueIdentifier>{e534af01-d3c9-4b5d-b49b-58378520cac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\Draw">
+      <UniqueIdentifier>{4e40f3bf-6339-4f91-bc01-cb62c97246b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\MpFun">
+      <UniqueIdentifier>{aff29cbc-1659-4898-b2d3-2408867d6dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\MemHack">
+      <UniqueIdentifier>{743c255d-5f97-4bae-a2e3-e6498a62ac9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\Some Math">
+      <UniqueIdentifier>{d3ef6e1a-73b8-43e3-8c1d-62684bc3f243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Heal">
+      <UniqueIdentifier>{62e1e6ed-4916-45de-bb0a-91fb1b4b8ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Voxel">
+      <UniqueIdentifier>{c4719f3e-740f-4630-8df7-2d5a2296b02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\Voxel">
+      <UniqueIdentifier>{215398ae-3e6b-4cb6-83a5-84695bd2f90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MeXorString">
+      <UniqueIdentifier>{57a55993-b392-4e16-babf-df60e49c4f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Vgui">
+      <UniqueIdentifier>{412012db-8aae-4008-80b4-d837671c6ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MeClassHook">
+      <UniqueIdentifier>{8854cb0f-419b-416e-903b-3a42d8e4e84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Imgui">
+      <UniqueIdentifier>{dd1f0545-88bd-4a22-b6e5-9bbd6718345c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\Key">
+      <UniqueIdentifier>{e115a0af-5394-44ff-b6d7-26cba9ce9ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MeTimer">
+      <UniqueIdentifier>{509a29ab-a7ed-41c8-9f11-e67856e68531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ImguiHack">
+      <UniqueIdentifier>{0af319b0-f83f-49d3-9220-d0fa65234f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImguiHack">
+      <UniqueIdentifier>{1fd816a3-23b7-4b3e-b5cf-bee2e7da89bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hack\Kz">
+      <UniqueIdentifier>{e04431ee-339a-4e22-9177-6d7c972710f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePack">
+      <UniqueIdentifier>{628414b3-17ed-4d27-ba72-9dcdbcdecf67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Helper">
+      <UniqueIdentifier>{e887c135-e333-4d1d-86b5-fea13a285221}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="darw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NT_DDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="编码转化.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUi007.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\anorms.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\beamdef.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cdll_dll.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cdll_engine_dll.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\Cdll_int.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cl_dll.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cl_entity.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\const.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\crc.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\custom.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\customentity.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\cvardef.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\dlight.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\edict.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\eiface.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\entity_state.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\entity_types.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\event_args.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\event_flags.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\in_buttons.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\keydefs.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\particledef.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pm_defs.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pm_info.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\pmtrace.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\progdefs.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\progs.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\r_efx.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\r_studioint.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\shake.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\studio.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\studio_event.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\triangleapi.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\usercmd.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\util_vector.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\weaponinfo.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\New NARTOOL\Kzh Base\SimpleBase\ValveSDK\engine\wrect.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\mp\cbase.h">
+      <Filter>头文件\eng\Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="冰布汉化测试.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="荣誉.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="externbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="externFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPrint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mymath.h">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Xorst.h">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClInclude>
+    <ClInclude Include="heal.h">
+      <Filter>头文件\Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>头文件\Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelBlockEntity.h">
+      <Filter>头文件\Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="FuckChines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MpBase.h">
+      <Filter>头文件\eng\Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString.h">
+      <Filter>源文件\MeXorString</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassHook.h">
+      <Filter>源文件\MeClassHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="VguiMenu.h">
+      <Filter>头文件\eng</Filter>
+    </ClInclude>
+    <ClInclude Include="Vgui.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="IHTML.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCode.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="P_VGUI.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="MemMpHack.h">
+      <Filter>源文件\Hack\MpFun</Filter>
+    </ClInclude>
+    <ClInclude Include="HookMessage.h">
+      <Filter>源文件\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiDraw.h">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>源文件\Hack\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>源文件\MeTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="VguiLocalize003.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="HackAddres.h">
+      <Filter>源文件\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="hitbox.h">
+      <Filter>源文件\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString2.h">
+      <Filter>源文件\MeXorString</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation.h">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString3.h">
+      <Filter>源文件\MeXorString</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxeMenu.h">
+      <Filter>源文件\Hack\Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedHack.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="LockMode.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinLocal.h">
+      <Filter>源文件\Hack\MpFun</Filter>
+    </ClInclude>
+    <ClInclude Include="MemHelper.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SeverMeesage.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="DropRoom.h">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupPanel.h">
+      <Filter>源文件\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_clientfuncs.h">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatus.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBase.h">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatManagerBase.h">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExec.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>源文件\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCheat.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewCheat.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelUpdateCheat.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBotCheat.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="GodAxeAuto.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="zs_BuyBug.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="LockModeCheat.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="DevDebug.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBackFun.h">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinClass.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumGameItem.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="dwFindPattern.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameKz.h">
+      <Filter>源文件\Hack\Kz</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.hpp">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="PackRead.hpp">
+      <Filter>头文件\GamePack</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePack.hpp">
+      <Filter>头文件\GamePack</Filter>
+    </ClInclude>
+    <ClInclude Include="PackWrite.hpp">
+      <Filter>头文件\GamePack</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePack.h">
+      <Filter>头文件\ImguiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunday.hpp">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLog.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="forcsol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HookMess.cpp">
+      <Filter>源文件\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="ValveSDK\misc\parsemsg.cpp">
+      <Filter>头文件\eng\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDraw.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="CallBackFun.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="MpFun.cpp">
+      <Filter>源文件\Hack\MpFun</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedHack.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="计算屏幕坐标.cpp">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClCompile>
+    <ClCompile Include="荣誉.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="同步的计算.cpp">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClCompile>
+    <ClCompile Include="编码转化.cpp">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelMap.cpp">
+      <Filter>源文件\Hack\Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>源文件\Hack\Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelBlockEntity.cpp">
+      <Filter>源文件\Hack\Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="Kz.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="InterFace.cpp">
+      <Filter>源文件\Vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassHook.cpp">
+      <Filter>源文件\MeClassHook</Filter>
+    </ClCompile>
+    <ClCompile Include="VguiPanle.h">
+      <Filter>源文件\Vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="P_VGUI.cpp">
+      <Filter>源文件\Vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="MemMpHack.cpp">
+      <Filter>源文件\Hack\MpFun</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorDraw.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiDraw.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>源文件\Hack\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件\MeTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="HackAddres.cpp">
+      <Filter>源文件\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>源文件\Hack\Some Math</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBot.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="LockMode.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatClass.cpp">
+      <Filter>源文件\Hack\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinLocal.cpp">
+      <Filter>源文件\Hack\MpFun</Filter>
+    </ClCompile>
+    <ClCompile Include="SeverMeesage.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="DropRoom.cpp">
+      <Filter>源文件\Hack\MemHack</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupPanel.cpp">
+      <Filter>源文件\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatManagerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExec.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCheat.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewCheat.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelUpdateCheat.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBotCheat.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="GodAxeAuto.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="zs_BuyBug.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="LockModeCheat.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="DevDebug.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinClass.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumGameItem.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="GameKz.cpp">
+      <Filter>源文件\Hack\Kz</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePack.cpp">
+      <Filter>源文件\ImguiHack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
